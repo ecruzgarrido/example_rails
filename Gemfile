@@ -26,6 +26,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'pg'
 
+gem 'sunspot_rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -50,5 +52,9 @@ end
 
 group :development do
   gem 'foreman'
+  # gem 'sunspot_solr'
 end
 
+group :test do
+  # gem 'sunspot_test'
+end

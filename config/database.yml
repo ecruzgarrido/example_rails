@@ -49,7 +49,7 @@ test:
 #
 production:
   <<: *default
-  host: ec2-54-235-134-167.compute-1.amazonaws.com
-  database: dc3h2p27350p2n
-  username: bbselqqbhhnvit
-  password: p7aBTfFQvUxN9ztcwhpGSlZ19z
+  host: ec2-54-83-36-176.compute-1.amazonaws.com
+  database: d1s95h59h36lmg
+  username: vrodeqvpjawkys
+  password: Gwd78uevr7Gl62Zd2tTzjmshK0

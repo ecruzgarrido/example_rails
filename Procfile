@@ -1,2 +1,1 @@
-web:    bundle exec rails s
-search: solr start
+web:    rails s -p $PORT -e $RAILS_ENV

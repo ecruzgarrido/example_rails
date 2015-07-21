@@ -28,6 +28,8 @@ gem 'pg'
 
 gem 'sunspot_rails'
 
+gem 'responders'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

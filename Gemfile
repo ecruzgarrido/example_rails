@@ -32,6 +32,8 @@ gem 'responders'
 
 gem 'haml-rails'
 
+gem 'zeus-parallel_tests'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -53,13 +55,22 @@ group :development, :test do
   gem 'spring'
 
   gem 'pry-rails'
+
+  gem 'rspec-rails'
 end
 
 group :development do
   gem 'foreman'
+
+  gem 'parallel_tests'
   # gem 'sunspot_solr'
 end
 
 group :test do
-  # gem 'sunspot_test'
+  gem 'sunspot_test'
+  # database_cleaner is not required, but highly recommended
+  gem 'database_cleaner'
+  gem 'machinist'
+  gem 'email_spec'
+  gem 'webmock'
 end
